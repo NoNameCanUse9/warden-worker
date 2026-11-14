@@ -57,10 +57,6 @@ run_worker_first = ["/api/*", "/identity/*", "/notifications/*"]
 # Base URL for the worker, used for generating up/down URLs for files.
 # If not set, the base URL will be extracted from the incoming request.
 # BASE_URL = "https://vault.example.com"
-
-ALLOWED_EMAILS = "384058028@qq.com"
-JWT_REFRESH_SECRET = "aceab35728df3e201956cb2c7e433e118d680d7f1d0a908c2372529750718115"
-JWT_SECRET = "2a536591ba210ccc587bb7275cf256faba644e05954baefd99d9e9b7fb121815"
 # Server-side password hashing PBKDF2 iterations (stored per-user).
 # Defaults to 600000, and will be clamped to a minimum of 600000 even if set lower.
 # Existing users whose password iterations are less than this value will be upgraded on login.
